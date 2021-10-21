@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Inventory App - Jeffrey Brondell</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alert"> Important!</string>
+    <string name="permission_alert">This application supports the use of SMS messages for item notifications. Would you like to allow this application access to your SMS Messaging apps?</string>
+    <string name="permissions_file">You can adjust this permission later within the settings file.</string>
+    <string name="low_inventory">The inventory count for one or more of your inventory items has gotten critically low. Please review your inventory and address any shortages you find.</string>
+    <string name="ok"> OK </string>
+    <string name="cancel"> Cancel </string>
+
+    <string-array name="Items">
+        <item>Car</item>
+        <item>TV</item>
+        <item>Pencil</item>
+    </string-array>
+
+    <string-array name="Locations">
+        <item>Garage</item>
+        <item>Various</item>
+        <item>Various</item>
+    </string-array>
+
+    <string-array name="Count">
+        <item>2</item>
+        <item>2</item>
+        <item>23</item>
+    </string-array>
+
+</resources>

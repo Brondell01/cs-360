@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:columnCount="6"
+    tools:context=".DisplayActivity">
+
+    <TextView
+        android:textSize="26sp"
+        android:layout_columnSpan="6"
+        android:layout_gravity="center_horizontal"
+        android:text="Manage your Inventory" />
+
+    <TextView
+        android:layout_columnSpan="6" />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:stretchColumns="0,1,">
+
+    <TableRow>
+        <TextView/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Item Count"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+    </TableRow>
+    </TableLayout>
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_columnSpan="3"
+        android:id="@+id/fragment_list" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:text="Add Item"
+        android:textSize="10sp"
+        android:onClick="addButton"/>
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_columnSpan="1"
+        android:text="Edit List"
+        android:textSize="10sp"
+        android:onClick="editButton"/>
+
+
+</GridLayout>
+
+
+

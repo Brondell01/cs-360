@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_columnSpan="4"
+    android:stretchColumns="1,2,3,4"
+    android:id="@+id/table"/>
+
+
+<TableRow>
+
+<Button
+    android:id="@+id/buttonDelete1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Delete"
+    android:textSize="10sp"/>
+
+<TextView
+    android:id="@+id/itemName1"
+    android:layout_height="wrap_content"
+    android:text="cannot edit"
+    android:textAlignment="center"/>
+<TextView
+    android:id="@+id/itemCount1"
+    android:layout_height="wrap_content"
+    android:text="cannot edit"
+    android:textAlignment="center"/>
+
+
+
+</TableRow>
+<TableRow>
+
+<Button
+    android:id="@+id/buttonDelete2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Delete"
+    android:textSize="10sp"/>
+
+<TextView
+    android:id="@+id/itemName2"
+    android:layout_height="wrap_content"
+    android:text="cannot edit"
+    android:textAlignment="center"/>
+<TextView
+    android:id="@+id/itemCount2"
+    android:layout_height="wrap_content"
+    android:text="cannot edit"
+    android:textAlignment="center"/>
+
+
+
+</TableRow>
+
+    </TableLayout>

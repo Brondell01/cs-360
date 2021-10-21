@@ -1,0 +1,16 @@
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="MMS"
+        android:title="MMS"
+        android:summary="allow application to notify user of changes to inventory."/>
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="notificationSeen"
+        android:title="Notification Seen?"
+        android:summary="Has the user already been provided with an initial MMS offer?"/>
+
+</PreferenceScreen>
